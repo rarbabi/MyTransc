@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wls:weblogic-web-app xmlns:wls="http://www.bea.com/ns/weblogic/weblogic-web-app" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd http://www.bea.com/ns/weblogic/weblogic-web-app http://www.bea.com/ns/weblogic/weblogic-web-app/1.0/weblogic-web-app.xsd">
+    <wls:weblogic-version>10.3.0</wls:weblogic-version>
+     <wls:jsp-descriptor>
+        <wls:keepgenerated>true</wls:keepgenerated>
+        <wls:precompile>true</wls:precompile>
+        <wls:working-dir>C:\Documents and Settings\hzp0nr\workspace\bankapiworkspace\gen2\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wl_server\work\spring-mvc-sandbox</wls:working-dir>
+        <wls:debug>true</wls:debug>
+    </wls:jsp-descriptor>
+    <wls:context-root>spring-mvc-sandbox</wls:context-root>
+      <wls:container-descriptor>
+      <wls:prefer-web-inf-classes>true</wls:prefer-web-inf-classes>
+   	</wls:container-descriptor>
+   	<wls:session-descriptor><wls:cookies-enabled>false</wls:cookies-enabled></wls:session-descriptor>
+</wls:weblogic-web-app>
